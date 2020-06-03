@@ -1,2 +1,3 @@
-# shopify-locales-he
-shopify בעברית
+# shopify בעברית
+
+קבצי שפה ל shopify בעברית
