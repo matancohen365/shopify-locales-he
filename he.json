@@ -1057,7 +1057,7 @@
       "taxes_included_but_shipping_at_checkout": "המס כלול ומשלוח מחושב בתשלום\n",
       "taxes_included_and_shipping_policy_html": "מס כלול. <a href=\"{{ link }}\">משלוח <\/a> מחושב בתשלום.",
       "update": "עדכן עגלת קניות\n",
-      "checkout": "לשלם",
+      "checkout": "עבור לתשלום",
       "empty": "העגלה שלך כרגע ריקה.\n",
       "cookies_required": "אפשר עוגיות להשתמש בעגלת הקניות\n",
       "continue_browsing_html": "המשך לגלוש <a href=\"{{ link }}\"> כאן <\/a>.",
