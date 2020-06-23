@@ -26,7 +26,7 @@
         "continue_to_payment_method": "המשך לתשלום",
         "continue_to_review": "סקור הזמנה",
         "back_to_cart": "חזור לעגלה",
-        "back_to_contact_information": "חזור לפרטים",
+        "back_to_contact_information": "חזור לפרטי לקוח",
         "back_to_shipping_method": "חזור למשלוח",
         "back_to_payment_method": "חזור לתשלום",
         "choose_shipping_method": "בחר שיטת משלוח",
@@ -53,7 +53,7 @@
         "address_title": "כתובת",
         "shipping_address_title": "כתובת למשלוח",
         "delivery_option_title": "שיטת משלוח",
-        "contact_method_title": "פרטי התקשרות",
+        "contact_method_title": "פרטי לקוח",
         "email_label": "אמייל",
         "email_placeholder": "אמייל",
         "email_or_phone_label": "אמייל או מספר טלפון",
@@ -613,8 +613,8 @@
         "blocks": {
           "contact_method_title": "איש קשר",
           "billing_address_title": "חיוב",
-          "shipping_address_title": "לשלוח ל",
-          "shipping_method_title": "שיטה",
+          "shipping_address_title": "כתובת למשלוח",
+          "shipping_method_title": "שיטת משלוח",
           "payment_method_title": "תשלום",
           "change_link_label": "שינוי",
           "change_contact_method_link_label": "שנה את פרטי הקשר",
@@ -673,7 +673,7 @@
         "payment_total_label": "סך התשלום",
         "conversion_rate": "1 {{ from_currency_code }} = {{ rate }} {{ to_currency_code }}",
         "change_currency_link": "שנה ל- {{ currency_name }}",
-        "card_provider_fx_charges_warning": "ספק הכרטיס שלך עשוי לחייב עמלות בגין {{ currency_code }} עסקאות."
+        "card_provider_fx_charges_warning": "חברת האשראי שלך עשויה לחייב עמלות בגין עסקאות {{ currency_code }}."
       },
       "tips": {
         "title": "הוסף טיפ",
