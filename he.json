@@ -10,7 +10,7 @@
         "page_title": "תשלום",
         "error_page_title": "שגיאה",
         "skip_to_content": "דלג לתוכן",
-        "breadcrumb": "Breadcrumb",
+        "breadcrumb": "שובל פירורים",
         "continue_button_label": "המשך",
         "complete_purchase_button_label": "השלם הזמנה",
         "pay_now_button_label": "שלם עכשיו",
@@ -49,7 +49,7 @@
         }
       },
       "contact": {
-        "title": "מידע",
+        "title": "פרטי לקוח",
         "address_title": "כתובת",
         "shipping_address_title": "כתובת למשלוח",
         "delivery_option_title": "שיטת משלוח",
@@ -163,9 +163,9 @@
         "gift_card_has_been_removed": "גיפטקארד הוסר",
         "discount_already_applied": "בהזמנה זו נוספה הנחה. אינך יכול להוסיף הנחה נוספת.",
         "cart_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד ההנחה אינו תקף לפריטים בעגלה שלך",
-        "discount_requires_customer_notice": "הזן את פרטי המשלוח שלך כדי להחיל את ה- <strong>{{ code }}<\/strong> קוד הנחה",
-        "customer_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבורך כרגע",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבור כתובת המשלוח שלך",
+        "discount_requires_customer_notice": "הזן את פרטי המשלוח שלך כדי להחיל את ה- <strong>{{ code }}<\/strong> קוד הנחה",
+        "customer_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבורך כרגע",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבור כתובת המשלוח שלך",
         "customer_already_used_once_per_customer_discount_notice": "{{ code }} כבר נעסה שימוש בקוד הנחה זה",
         "subtotal_label": "סך בניים",
         "shipping_label": "משלוח",
@@ -297,8 +297,8 @@
         "no_js_credit_card_fields_redirect_hint": "תנותב אותך להוסיף את פרטי התשלום שלך.",
         "card_fields_container_prefix": "מיכל שדה עבור:",
         "card_fields_unavailable_html": {
-          "one": "תשלומי כרטיסי אשראי וכרטיס חיוב אינם זמינים כעת.<br><a href=\"{{ current_url }}\">רענן עמוד זה<\/a> או נסה שוב אחר כך.",
-          "other": "תשלומי כרטיסי אשראי וכרטיס חיוב אינם זמינים כעת.<br><a href=\"{{ current_url }}\">רענן עמוד זה<\/a> או נסה אמצעי תשלום אחר."
+          "one": "תשלומי כרטיסי אשראי וכרטיס חיוב אינם זמינים כעת.<br><a href=\"{{ current_url }}\">רענן עמוד זה<\/a> או נסה שוב אחר כך.",
+          "other": "תשלומי כרטיסי אשראי וכרטיס חיוב אינם זמינים כעת.<br><a href=\"{{ current_url }}\">רענן עמוד זה<\/a> או נסה אמצעי תשלום אחר."
         },
         "card_fields_processing_error": "הייתה בעיה בעיבוד התשלום. נסה לרענן דף זה או לבדוק את חיבור האינטרנט שלך.",
         "technical_error": "לא ניתן לעבד תשלומים ברגע זה בגלל בעיה טכנית. נסה שוב בעוד מספר דקות.",
@@ -629,15 +629,15 @@
       "shop_policies": {
         "refund_policy": "מדיניות החזרים",
         "privacy_policy": "מדיניות הפרטיות",
-        "terms_of_service": "תנאי השירות",
-        "legal_notice": "הודעה משפטית",
-        "shipping_policy": "מדיניות משלוח",
+        "terms_of_service": "תנאי שימוש",
+        "legal_notice": "הודעות משפטיות",
+        "shipping_policy": "מדיניות משלוחים",
         "terms_of_sale": "תנאי המכירה",
         "subscription_policy": "מדיניות מנויים"
       },
       "remember_me": {
-        "shopify_pay_label": "קנה שכר",
-        "save": "להציל",
+        "shopify_pay_label": "Shop Pay",
+        "save": "שמור",
         "title": "זכור אותי",
         "label": "שמור את המידע שלי לתשלום מהיר יותר",
         "description_html": "בפעם הבאה שתבדוק כאן או על חנויות אחרות המופעלות על ידי Shopify, תקבל קוד בהודעה לרכישה מאובטחת באמצעות Shop Pay.",
@@ -652,7 +652,7 @@
         "title": "התראות"
       },
       "order_payment_collection": {
-        "custom_line_item_description": "סכום לשלם עבור הזמנה {{ order_name }}",
+        "custom_line_item_description": "סכום לתשלום עבור הזמנה {{ order_name }}",
         "changes_summary": {
           "added": {
             "one": "נוסף",
@@ -721,7 +721,7 @@
       "order": {
         "not_available": "הזמנה זו אינה זמינה",
         "financial_status": {
-          "authorized": "מורשה",
+          "authorized": "תקין",
           "pending": "ממתין",
           "paid": "שולם",
           "unpaid": "לא שולם",
@@ -732,7 +732,7 @@
         },
         "transaction_status": {
           "success": "הצלחה",
-          "pending": "המתנה",
+          "pending": "בהמתנה",
           "failure": "נכשל",
           "error": "שגיאה"
         },
@@ -789,7 +789,7 @@
       "body": "הודעה"
     },
     "feed": {
-      "more": "יותר"
+      "more": "עוד"
     },
     "addresses": {
       "zip_code": "מיקוד",
@@ -919,8 +919,8 @@
       "results_for_html": "החיפוש שלך אחר \"{{ terms }}\" חשף את הדברים הבאים:",
       "read_more": "קרא עוד",
       "results_count_html": {
-        "one": "תוצאה אחת לחיפוש <strong>{{ terms }}<\/ strong>",
-        "other": "{{ count }} תוצאות לחיפוש<strong>{{ terms }}<\/ strong>"
+        "one": "פריט אחד",
+        "other": "{{ count }} פריטים"
       },
       "products": "קטלוג",
       "pages_and_articles": "דפים ומאמרים"
@@ -929,7 +929,7 @@
       "method": "סמלי תשלום"
     },
     "breadcrumbs": {
-      "home_link_title": "חזרה לדף הקדמי",
+      "home_link_title": "חזרה לדף הקודם",
       "home": "דף הבית",
       "you_are_here": "אתה כאן"
     },
