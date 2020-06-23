@@ -209,8 +209,8 @@
       "shipping": {
         "title": "משלוח",
         "shipping_method_title": "שיטת משלוח",
-        "waiting_on_rate_notice": "מקבל שיעורי משלוח זמינים ...",
-        "waiting_on_pickup_location_notice": "מקבל מיקומי איסוף זמינים ...",
+        "waiting_on_rate_notice": "טוען שיעורי משלוח זמינים ...",
+        "waiting_on_pickup_location_notice": "טוען מיקומי איסוף זמינים ...",
         "no_rates_for_cart_or_destination_notice": "אין שיטות משלוח זמינות לעגלה או לכתובת שלך",
         "no_pickup_location_notice": "לפחות אחד המוצרים שלך אינו זמין לאיסוף",
         "no_rates_for_country_notice": "אנו לא מציעים משלוח אל {{ country }}.",
@@ -379,7 +379,7 @@
         "physical_gift_card_invalid_code": "קוד כרטיס מתנה פיזי אינו חוקי."
       },
       "processing": {
-        "you_will_receive_confirmation": "אנחנו מקבלים הרבה הזמנות ברגע זה. עליכם לקבל אישור באמייל או בהודעה בקרוב. אם אתה לא מקבל את זה בשעה הבאה, יידע אותנו.",
+        "you_will_receive_confirmation": "אנחנו מקבלים הרבה הזמנות ברגע זה. עליך לקבל אישור באמייל או בהודעה בקרוב. אם לא קיבלת בשעה הקרובה, צור איתנו קשר.",
         "redirecting_page_title": "מפנה מחדש ...",
         "redirecting_title": "מפנה מחדש ...",
         "redirecting_notice": "חכה בזמן שנפנה אותך מחדש.",
