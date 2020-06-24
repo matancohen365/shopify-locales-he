@@ -209,7 +209,7 @@
       "shipping": {
         "title": "משלוח",
         "shipping_method_title": "שיטת משלוח",
-        "waiting_on_rate_notice": "טוען שיעורי משלוח זמינים ...",
+        "waiting_on_rate_notice": "טוען תעריפי משלוח זמינים ...",
         "waiting_on_pickup_location_notice": "טוען מיקומי איסוף זמינים ...",
         "no_rates_for_cart_or_destination_notice": "אין שיטות משלוח זמינות לעגלה או לכתובת שלך",
         "no_pickup_location_notice": "לפחות אחד המוצרים שלך אינו זמין לאיסוף",
@@ -420,7 +420,7 @@
         "insufficient_funds": "התשלום שלך נדחה בגלל חוסר מספיק בכספים. נסה שוב או השתמש באמצעי תשלום אחר."
       },
       "shipping_errors": {
-        "shipping_method": "העגלה שלך עודכנה ושיעור המשלוח הקודם אינו תקף. בחר שיעור חדש.",
+        "shipping_method": "העגלה שלך עודכנה ותעריף המשלוח הקודם אינו תקף. בחר תעריף חדש.",
         "shipping_method_not_available": "העגלה שלך עודכנה ולא ניתן לשלוח את הפריטים שהוספת לכתובת שלך. הסר את הפריטים להשלמת ההזמנה.",
         "shipping_method_not_available_generic": {
           "other": "חלק מהפריטים בעגלה שלך לא נשלחים למיקומך. צרו קשר עם החנות למידע נוסף.",
@@ -703,7 +703,7 @@
         "product_sold_out": "המוצר '{{ name }}' כבר אזל.",
         "variant_not_found": "לא ניתן למצוא גרסה",
         "shipping_address_not_required": "עגלה זו אינה דורשת משלוח",
-        "shipping_address_invalid": "הייתה בעיה בחישוב שיעורי המשלוח שלך. המשך לתשלום כדי לבחור תעריף משלוח לפני שתשלים את ההזמנה."
+        "shipping_address_invalid": "הייתה בעיה בחישוב תעריף המשלוח שלך. המשך לתשלום כדי לבחור תעריף משלוח לפני שתשלים את ההזמנה."
       },
       "customer": {
         "password_reset_error": "שגיאת איפוס סיסמא",
