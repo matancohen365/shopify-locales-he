@@ -18,14 +18,14 @@
         "edit_link_label": "ערוך",
         "all_rights_reserved": "כל הזכויות שמורות {{ shop_name }}",
         "print_policies_link_label": "הדפס",
-        "cart": "עגלת קניות",
+        "cart": "הזמנה",
         "close_modal_label": "סגור",
         "close_notice_label": "סגור",
         "expand_notice_label": "הצג עוד",
         "continue_to_shipping_method": "המשך למשלוח",
         "continue_to_payment_method": "המשך לתשלום",
         "continue_to_review": "סקור הזמנה",
-        "back_to_cart": "חזור לעגלה",
+        "back_to_cart": "חזור להזמנה",
         "back_to_contact_information": "חזור לפרטי לקוח",
         "back_to_shipping_method": "חזור למשלוח",
         "back_to_payment_method": "חזור לתשלום",
@@ -126,23 +126,23 @@
       "stock": {
         "page_title": "בעיות במלאי",
         "title": "נגמר המלאי",
-        "items_unavailable_notice": "חלק מהפריטים אינם זמינים עוד. העגלה שלך עודכנה.",
+        "items_unavailable_notice": "חלק מהפריטים אינם זמינים עוד. ההזמנה שלך עודכנה.",
         "product_column_header": "מוצרים",
         "quantity_column_header": "כמות",
         "price_column_header": "מחיר",
         "status_column_header": "מצב",
-        "removed_from_cart_notice": "הוסר מהעגלה",
+        "removed_from_cart_notice": "הוסר מההזמנה",
         "sold_out_label": "אזל המלאי",
         "reduced_label": "אחרונים במלאי",
         "reduced_with_quantity_label": "רק {{ quantity_available }} נותרו",
-        "remove_from_cart_button_label": "הסר מהעגלה",
+        "remove_from_cart_button_label": "הסר מההזמנה",
         "continue_shopping_button_label": "המשך",
-        "go_back_to_cart_button_label": "חזור לעגלה"
+        "go_back_to_cart_button_label": "חזור להזמנה"
       },
       "order_summary": {
         "title": "סיכום הזמנה",
         "order_name_label": "הזמנה {{ name }}",
-        "shopping_cart_label": "עגלת קניות",
+        "shopping_cart_label": "הזמנה",
         "discount_title": "הנחה",
         "discount_label": "קוד הנחה",
         "discount_placeholder": "קוד הנחה",
@@ -162,7 +162,7 @@
         "gift_card_has_been_applied": "גיפטקארד נוסף",
         "gift_card_has_been_removed": "גיפטקארד הוסר",
         "discount_already_applied": "בהזמנה זו נוספה הנחה. אינך יכול להוסיף הנחה נוספת.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד ההנחה אינו תקף לפריטים בעגלה שלך",
+        "cart_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד ההנחה אינו תקף לפריטים בהזמנה שלך",
         "discount_requires_customer_notice": "הזן את פרטי המשלוח שלך כדי להחיל את ה- <strong>{{ code }}<\/strong> קוד הנחה",
         "customer_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבורך כרגע",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong>{{ code }}<\/strong> קוד הנחה אינו זמין עבור כתובת המשלוח שלך",
@@ -211,7 +211,7 @@
         "shipping_method_title": "שיטת משלוח",
         "waiting_on_rate_notice": "טוען תעריפי משלוח זמינים ...",
         "waiting_on_pickup_location_notice": "טוען מיקומי איסוף זמינים ...",
-        "no_rates_for_cart_or_destination_notice": "אין שיטות משלוח זמינות לעגלה או לכתובת שלך",
+        "no_rates_for_cart_or_destination_notice": "אין שיטות משלוח זמינות להזמנה או לכתובת שלך",
         "no_pickup_location_notice": "לפחות אחד המוצרים שלך אינו זמין לאיסוף",
         "no_rates_for_country_notice": "אנו לא מציעים משלוח אל {{ country }}.",
         "no_rates_contact_notice": "צרו קשר למידע נוסף",
@@ -405,7 +405,7 @@
         }
       },
       "payment_errors": {
-        "order_total_changed": "סך ההזמנה שלך השתנה. רענן את העגלה ונסה שוב.",
+        "order_total_changed": "סך ההזמנה שלך השתנה. רענן את ההזמנה ונסה שוב.",
         "generic_error": "הייתה בעיה בעיבוד התשלום שלך. נסה שוב או השתמש באמצעי תשלום אחר.",
         "rejected_transaction": "התשלום שלך נדחה. נסה שוב או השתמש באמצעי תשלום אחר.",
         "credit_card_processing": "לא ניתן לעבד את התשלום שלך מסיבות טכניות. נסה שוב בעוד מספר דקות או השתמש באמצעי תשלום אחר.",
@@ -420,10 +420,10 @@
         "insufficient_funds": "התשלום שלך נדחה בגלל חוסר מספיק בכספים. נסה שוב או השתמש באמצעי תשלום אחר."
       },
       "shipping_errors": {
-        "shipping_method": "העגלה שלך עודכנה ותעריף המשלוח הקודם אינו תקף. בחר תעריף חדש.",
-        "shipping_method_not_available": "העגלה שלך עודכנה ולא ניתן לשלוח את הפריטים שהוספת לכתובת שלך. הסר את הפריטים להשלמת ההזמנה.",
+        "shipping_method": "ההזמנה שלך עודכנה ותעריף המשלוח הקודם אינו תקף. בחר תעריף חדש.",
+        "shipping_method_not_available": "ההזמנה שלך עודכנה ולא ניתן לשלוח את הפריטים שהוספת לכתובת שלך. הסר את הפריטים להשלמת ההזמנה.",
         "shipping_method_not_available_generic": {
-          "other": "חלק מהפריטים בעגלה שלך לא נשלחים למיקומך. צרו קשר עם החנות למידע נוסף.",
+          "other": "חלק מהפריטים בהזמנה שלך לא נשלחים למיקומך. צרו קשר עם החנות למידע נוסף.",
           "one": "לא ניתן לשלוח הזמנה זו למיקומך. צרו קשר עם החנות למידע נוסף."
         },
         "shipping_method_not_available_updated": {
@@ -432,15 +432,15 @@
         }
       },
       "failed_payment": {
-        "payment_not_processed_text": "לא חויבת. חזור לעגלת הקניות שלך כדי להשלים את הרכישה.",
-        "return_to_cart_button_label": "חזור לעגלה",
+        "payment_not_processed_text": "לא חויבת. חזור להזמנה שלך כדי להשלים את הרכישה.",
+        "return_to_cart_button_label": "חזור להזמנה",
         "page_title": "לא ניתן היה לעבד את התשלום",
         "title": "לא ניתן היה לעבד את התשלום",
         "payment_not_processed_title": "לא ניתן היה לעבד את התשלום שלך"
       },
       "marketing": {
         "unsubscribe": {
-          "description": "לא תקבל מאיתנו עוד תזכורות לעגלה.\n",
+          "description": "לא תקבל מאיתנו עוד תזכורות להזמנה.\n",
           "title": "ביטלת את הרישום"
         },
         "accept_marketing_checkbox_label": "עדכנו אותי בחדשות והצעות בלעדיות"
@@ -688,21 +688,21 @@
     },
     "notices": {
       "cart": {
-        "only_n_items_available": "אתה יכול להוסיף לעגלה רק {{ count }} {{ name }}.",
-        "too_many_items_in_cart": "לא ניתן להוסיף לעגלה עוד {{ name }}.\n",
-        "all_items_in_cart": "כל {{ count }} {{ name }} נמצאים בעגלה שלך.\n",
-        "empty_update": "לא יכול לעדכן את העגלה הריקה\n",
+        "only_n_items_available": "אתה יכול להוסיף להזמנה רק {{ count }} {{ name }}.",
+        "too_many_items_in_cart": "לא ניתן להוסיף להזמנה עוד {{ name }}.\n",
+        "all_items_in_cart": "כל {{ count }} {{ name }} נמצאים בהזמנה שלך.\n",
+        "empty_update": "אין אפשרות לעדכן הזמנה ריקה\n",
         "missing_parameters": "אין קוד זיהוי או פרמטר שורה תקפים\n",
-        "generic_error": "שגיאת עגלה\n",
-        "too_many_line_items_error": "העגלה שלך לא יכולה להכיל יותר מ- {{ max }} פריטים.\n",
+        "generic_error": "שגיאה בהזמנה\n",
+        "too_many_line_items_error": "ההזמנה שלך לא יכולה להכיל יותר מ- {{ max }} פריטים.\n",
         "link_expired": "פג הקישור\n",
         "link_no_longer_exists": "הקישור כבר לא קיים.\n",
-        "stock_problems_html": "פריט אחד או יותר כבר לא זמין. סיפקנו <a href='{{ link }}'> עגלה מעודכנת <\/a>.",
-        "changed": "העגלה עודכנה",
+        "stock_problems_html": "פריט אחד או יותר כבר לא זמין. סיפקנו <a href='{{ link }}'> הזמנה מעודכנת <\/a>.",
+        "changed": "ההזמנה עודכנה",
         "items_changed": "פריט אחד או יותר השתנה.",
         "product_sold_out": "המוצר '{{ name }}' כבר אזל.",
         "variant_not_found": "לא ניתן למצוא גרסה",
-        "shipping_address_not_required": "עגלה זו אינה דורשת משלוח",
+        "shipping_address_not_required": "הזמנה זו אינה דורשת משלוח",
         "shipping_address_invalid": "הייתה בעיה בחישוב תעריף המשלוח שלך. המשך לתשלום כדי לבחור תעריף משלוח לפני שתשלים את ההזמנה."
       },
       "customer": {
@@ -756,7 +756,7 @@
       }
     },
     "page_titles": {
-      "shopping_cart": "עגלת הקניות שלך",
+      "shopping_cart": "ההזמנה שלך",
       "products": "קטלוג",
       "account": "חשבון",
       "create_account": "צור חשבון",
@@ -962,7 +962,7 @@
       "social_platform": "{{ name }} ב{{ platform }}"
     },
     "cart": {
-      "title": "עגלת קניות"
+      "title": "הזמנה"
     },
     "navigation": {
       "menu": "תפריט"
@@ -1012,9 +1012,9 @@
       "close": "סגור"
     },
     "product": {
-      "add_to_cart": "הוסף לעגלת קניות",
-      "item_added_to_cart": "פריט נוסף לעגלה!",
-      "view_cart": "פצה בעגלת קניות",
+      "add_to_cart": "הוסף להזמנה",
+      "item_added_to_cart": "פריט נוסף להזמנה!",
+      "view_cart": "צפה בהזמנה שלך",
       "regular_price": "מחיר רגיל",
       "sale_price": "מחיר מבצע",
       "sold_out": "אזל המלאי",
@@ -1029,8 +1029,8 @@
       "description": "תיאור\n",
       "full_details": "פרטים מלאים\n",
       "unit_price_label": "מחיר ליחידה",
-      "stock_unavailable": "לא ניתן היה להוסיף את הפריט לעגלת הקניות שלך מכיוון שאין מספיק מלאי.",
-      "product_added_to_cart_html": "פריט נוסף לעגלה. <span>צפו בעגלה ובתשלום<\/span>.",
+      "stock_unavailable": "לא ניתן היה להוסיף את הפריט להזמנה שלך מכיוון שאין מספיק במלאי.",
+      "product_added_to_cart_html": "פריט נוסף להזמנה. <span>צפו בהזמנה ובתשלום<\/span>.",
       "collection_return": "חזור ל{{ collection }}",
       "stock_available": {
         "other": "{{ count }} במלאי",
@@ -1048,7 +1048,7 @@
   },
   "cart": {
     "general": {
-      "title": "עגלת קניות",
+      "title": "הזמנה",
       "remove": "הסר",
       "note": "הוראות מיוחדות למוכר\n",
       "subtotal": "סכום בניים",
@@ -1056,10 +1056,10 @@
       "taxes_and_shipping_policy_at_checkout_html": "מיסים ו<\/a>משלוח<a href=\"{{ link }}\"> מחושבים בתשלום",
       "taxes_included_but_shipping_at_checkout": "המס כלול ומשלוח מחושב בתשלום\n",
       "taxes_included_and_shipping_policy_html": "מס כלול. <a href=\"{{ link }}\">משלוח <\/a> מחושב בתשלום.",
-      "update": "עדכן עגלת קניות\n",
+      "update": "עדכן הזמנה\n",
       "checkout": "עבור לתשלום",
-      "empty": "העגלה שלך כרגע ריקה.\n",
-      "cookies_required": "אפשר עוגיות להשתמש בעגלת הקניות\n",
+      "empty": "ההזמנה שלך כרגע ריקה.\n",
+      "cookies_required": "אפשר עוגיות להשתמש להוסיף פריטים להזמנה\n",
       "continue_browsing_html": "המשך לגלוש <a href=\"{{ link }}\"> כאן <\/a>.",
       "savings_html": "אתה חוסך {{ price }}\n",
       "continue_shopping": "המשך בקניות",
