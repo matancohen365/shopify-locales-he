@@ -2641,7 +2641,7 @@ textarea {
 .site-nav__dropdown {
   display: none;
   position: absolute;
-  padding: 11px 30px 11px 0;
+  padding: 11px 0 11px 30px ; 
   margin: 0;
   z-index: $z-index-dropdown;
   text-align: right;
@@ -3982,7 +3982,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
     position: relative;
     top: 10px;
     text-align: center;
-    margin: 0 2px 30px 2px;
+    margin: 0 2px 30px 2px ; 
   }
   .thumbnails-slider__btn {
     position: absolute;
@@ -4180,7 +4180,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 }
 
 .blog-filter__label {
-  margin: 0 1rem 0 0;
+  margin: 0 0 0 1rem ; 
 }
 
 .cart-header {
@@ -5103,7 +5103,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 .article__comment-count {
   border-color: transparent;
   border-bottom-color: currentColor;
-  padding: 0 0 3px 0;
+  padding: 0 0 3px 0 ; 
 
   &:not([disabled]):hover,
   &:focus {
@@ -5304,7 +5304,7 @@ $color-blankstate-background: rgba($color-body-text, 0.1);
 .blog-card__comment-count {
   border-color: transparent;
   border-bottom-color: currentColor;
-  padding: 0 0 3px 0;
+  padding: 0 0 3px 0 ; 
 
   &:not([disabled]):hover,
   &:focus {
@@ -8618,7 +8618,7 @@ $min-height-disclosure: 92px;
 .disclosure-list__item {
   border-bottom: 1px solid transparent;
   white-space: nowrap;
-  padding: 5px 45px 4px 15px;
+  padding: 5px 15px 4px 45px ; 
   text-align: right;
 
   &:active {
