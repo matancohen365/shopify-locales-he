@@ -1,10 +1,14 @@
+/* BABA CODE START HERE */
+
 $direction: rtl;
 $direction_start: right;
 $direction_end: left;
 
 body {
-direction: $direction;
+    direction: $direction;
 }
+
+/* BABA CODE ENDS HERE */
 
 /*============================================================================
   Debut | Built with Shopify Slate
@@ -677,7 +681,7 @@ $slick-opacity-not-active: 0.25;
   float: #{$direction_start};
   height: 100%;
   min-height: 1px;
-  [dir="#{$direction}rtl"] & {
+  [dir="#{$direction}"] & {
     float: #{$direction_end};
   }
   img {
@@ -771,13 +775,13 @@ $slick-opacity-not-active: 0.25;
 
 .slick-prev {
   #{$direction_start}: -25px;
-  [dir="#{$direction}rtl"] & {
+  [dir="#{$direction}"] & {
     #{$direction_start}: auto;
     #{$direction_end}: -25px;
   }
   &:before {
     content: $slick-prev-character;
-    [dir="#{$direction}rtl"] & {
+    [dir="#{$direction}"] & {
       content: $slick-next-character;
     }
   }
@@ -785,13 +789,13 @@ $slick-opacity-not-active: 0.25;
 
 .slick-next {
   #{$direction_end}: -25px;
-  [dir="#{$direction}rtl"] & {
+  [dir="#{$direction}"] & {
     #{$direction_start}: -25px;
     #{$direction_end}: auto;
   }
   &:before {
     content: $slick-next-character;
-    [dir="#{$direction}rtl"] & {
+    [dir="#{$direction}"] & {
       content: $slick-prev-character;
     }
   }
@@ -1064,11 +1068,11 @@ $grid-breakpoints: (
   order to how your rendered layout will appear.
 ==============================================================================*/
 .grid--rev {
-  direction: #{$direction}rtl;
+  direction: #{$direction};
   text-align: #{$direction_start};
 
   > .grid__item {
-    direction: #{$direction}ltr;
+    direction: #{$direction};
     text-align: #{$direction_start};
     float: #{$direction_end};
   }
