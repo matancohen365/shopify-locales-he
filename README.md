@@ -1,10 +1,13 @@
-# שופיפיי בעברית
+
+# RTL Your Shopify Theme
+
+Full tutrial at my [Help Center](https://baba.co.il/shopify-rtl.php)
 
 ראיתי לאחרונה שהרבה מחפשים קבצי שפה לשופיפי בעברית,
 הכנתי משהו בשביל חנות שלי ואתם מוזמנים להשתמש.
 
-כדי לגייר את התבנית שלכם, עקבו אחרי המדריך בקישור: [Help Center](https://baba.co.il/shopify-rtl.php) 
-כדי רק להוסיף קבצי שפה, עקבו אחרי השלבים למטה
+כדי לגייר את התבנית שלכם, עקבו אחרי המדריך בקישור:<br>[Help Center](https://baba.co.il/shopify-rtl.php) <br>
+כדי רק להוסיף קבצי שפה, עקבו אחרי השלבים למטה<br>
 
 ### 🍕 How to set up?
 
