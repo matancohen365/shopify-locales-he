@@ -52,7 +52,6 @@ h1 a:hover,
 h1 a:active,
 h1 a:visited {
     font-size: 30px;
-    color: #333;
 }
 
 h2 {
@@ -68,13 +67,11 @@ h3 {
 h4 {
     font-size: 16px;
     font-weight: 500;
-    color: #555;
     margin-bottom: 5px;
 }
 
 p {
     margin: 0;
-    color: #777;
     line-height: 150%;
 }
 
@@ -90,13 +87,8 @@ p {
     font-size: 16px;
 }
 
-strong {
-    color: #555;
-}
-
 small {
     font-size: 14px;
-    color: #999;
 }
 
 a,
@@ -181,7 +173,6 @@ a:visited {
     text-transform: uppercase;
     font-size: 14px;
     text-align: left;
-    color: #999;
 }
 
 @media (max-width: 600px) {
@@ -208,12 +199,10 @@ a:visited {
 .button__text:hover,
 .button__text:active,
 .button__text:visited {
-    color: #fff;
     text-decoration: none;
 }
 
 .or {
-    color: #999;
     display: inline-block;
     margin-left: 10px;
 }
@@ -269,7 +258,6 @@ a:visited {
 
 .disclaimer__subtext {
     font-size: 14px;
-    color: #999;
 }
 
 .disclaimer__subtext a {
@@ -324,18 +312,15 @@ a:visited {
 .order-list__item-title {
     font-weight: 600;
     line-height: 1.4;
-    color: #555;
 }
 
 .order-list__item-variant {
-    color: #999;
     font-size: 14px;
 }
 
 .order-list__item-original-price {
     display: block;
     text-align: left;
-    color: #999;
     font-size: 14px;
 }
 
@@ -343,7 +328,6 @@ a:visited {
     font-weight: 600;
     text-align: left;
     margin-right: 15px;
-    color: #555;
 }
 
 .order-list__price-cell {
@@ -389,7 +373,6 @@ a:visited {
 
 .subtotal-table--payment-methods p,
 .subtotal-table--payment-methods strong {
-    color: #999;
     font-size: 14px;
 }
 
