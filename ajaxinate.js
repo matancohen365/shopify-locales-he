@@ -16,6 +16,15 @@ https://elkfox.com
 MIT License
 ================================================================================================= */
 
+const AjaxinateContainer = '#AjaxinateContainer';
+
+window.onpopstate = function (e) {
+    if (e.state) {
+        document.title = e.state.title;
+        document.querySelector(AjaxinateContainer).innerHTML = e.state.html;
+    }
+};
+
 var Ajaxinate = function ajaxinateConstructor(config) {
     var settings = config || {};
     /*
@@ -27,7 +36,7 @@ var Ajaxinate = function ajaxinateConstructor(config) {
     */
     var defaultSettings = {
         method: 'scroll',
-        container: '#AjaxinateContainer',
+        container: AjaxinateContainer,
         pagination: '#AjaxinatePagination',
         offset: 0,
         loadingText: 'Loading',
@@ -51,7 +60,7 @@ var Ajaxinate = function ajaxinateConstructor(config) {
 };
 
 Ajaxinate.prototype.initialize = function initializeTheCorrectFunctionsBasedOnTheMethod() {
-    
+
     if (this.containerElement) {
         var initializers = {
             click: this.addClickListener,
@@ -59,14 +68,6 @@ Ajaxinate.prototype.initialize = function initializeTheCorrectFunctionsBasedOnTh
         };
 
         initializers[this.settings.method]();
-
-        var containerElement = this.containerElement;
-
-        window.onpopstate = function(e){
-            if(e.state){
-                containerElement.innerHTML = e.state.container;
-            }
-        };
     }
 };
 
@@ -125,7 +126,10 @@ Ajaxinate.prototype.loadMore = function getTheHtmlOfTheNextPageWithAnAjaxRequest
                 this.settings.callback(this.request.responseXML);
             }
 
-            window.history.pushState({container: this.containerElement.innerHTML}, window.title, this.nextPageUrl);
+            window.history.pushState({
+                html: document.querySelector(AjaxinateContainer).innerHTML,
+                title: this.request.responseXML.title,
+            }, this.request.responseXML.title, this.nextPageUrl);
 
             this.initialize();
 
