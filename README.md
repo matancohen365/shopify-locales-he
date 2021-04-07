@@ -1,12 +1,12 @@
 
 # RTL Your Shopify Theme
 
-Full tutrial at my [Help Center](https://baba.co.il/shopify-rtl.php)
+Download at [Shopify App Store](https://apps.shopify.com/r2l)
 
 ראיתי לאחרונה שהרבה מחפשים קבצי שפה לשופיפי בעברית,
 הכנתי משהו בשביל חנות שלי ואתם מוזמנים להשתמש.
 
-כדי לגייר את התבנית שלכם, עקבו אחרי המדריך בקישור:<br>[Help Center](https://baba.co.il/shopify-rtl.php) <br>
+כדי לגייר את התבנית שלכם, התקינו את האפליקציה מהקיושק ועקבו אחרי המדריך בקישור:<br>[Shopify App Store](https://apps.shopify.com/r2l) <br>
 כדי רק להוסיף קבצי שפה, עקבו אחרי השלבים למטה<br>
 
 ### 🍕 How to set up?
